@@ -1,0 +1,39 @@
+This task was taken up to exhibit competence in JAVA - to obtain entry into one of the projects 
+in my university
+============================================================================================================
+
+
+Question
+-------------------------------------------------------------------------------------------------------------
+
+UPB uses different web technologies on different sites. Below is a fictive example of technologies 
+that can be found on the UPB website:
+
+https://upb.de/site/drupal -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/a -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/a/b -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/a/c -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/a/d/e -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/f -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/g -> Drupal, Apache, PHP5, RedHat, AngularJS
+https://upb.de/site/jml -> Joomla, Apache, PHP4, AngularJS
+https://upb.de/site/jml/pdfs -> PDF generator
+https://upb.de/site/ -> Apache, PHP5
+
+We would like to simplify those results to report only the differences between the technologies 
+contained in a directory and its parent. 
+For example, if Apache is used in https://upb.de/site/drupal/a and in https://upb.de/site/, 
+it should only be reported for https://upb.de/site/. 
+The simplified results of the list above would look like the following:
+
+https://upb.de/site/ -> Apache, PHP5
+https://upb.de/site/drupal/ -> Drupal, RedHat
+https://upb.de/site/drupal/g -> AngularJS
+https://upb.de/site/jml -> Joomla, PHP4, AngularJS
+https://upb.de/site/jml/pdfs -> PDF generator
+
+Write a working Java program that does the simplification 
+(it should take the first list as input, and output the second list), 
+and writes at least five test cases which verify that your program works. 
+Send us your program and test cases, along with a short paragraph on how to run them.
+

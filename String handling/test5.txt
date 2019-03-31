@@ -1,0 +1,7 @@
+https://upb.de/site/drupal -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/jml -> Joomla, Apache, PHP4, AngularJS
+https://upb.de/site/kml -> Joomla, Apache, PHP4, AngularJS
+https://upb.de/site/lml -> Joomla, Apache, PHP4, AngularJS
+https://upb.de/site/xml -> Joomla, Apache, PHP4, AngularJS
+https://upb.de/site/yml -> Joomla, Apache, PHP4, AngularJS
+https://upb.de/site/zml -> Joomla, Apache, PHP4, AngularJS

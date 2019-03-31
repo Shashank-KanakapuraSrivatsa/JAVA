@@ -1,0 +1,3 @@
+https://upb.de/site/drupal -> Drupal, Apache, PHP5, RedHat
+https://upb.de/site/drupal/g -> Drupal, Apache, PHP5, RedHat, AngularJS
+https://upb.de/site/jml -> Joomla, Apache, PHP4, AngularJS
